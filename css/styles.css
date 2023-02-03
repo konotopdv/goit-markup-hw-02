@@ -1,0 +1,20 @@
+body {
+    color: #434455;
+    background-color: #E5E5E5;
+}
+
+.header-link {
+    color: #2E2F42;
+
+}
+
+.header-contact {
+    color: #434455;
+}
+
+.button {
+    color: #FFFFFF ;
+    border: rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
+    border-radius: 4px ;
+}
