@@ -1,20 +1,64 @@
 body {
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #E5E5E5;
 }
 
+ul {
+    list-style-type: none;
+}
 .header-link {
     color: #2E2F42;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+
+}
+.header-link:hover {
+    color: #404BBF;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+    position: absolute
 
 }
 
 .header-contact {
     color: #434455;
+    
+}
+.header-contact:hover {
+    color: #404BBF;
+    position: absolute;
 }
 
-.button {
+.button1 {
     color: #FFFFFF ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
     border: rgba(0, 0, 0, 0.15);
-    background-color: #4D5AE5;
+    background-color:#4D5AE5;
     border-radius: 4px ;
+    cursor: pointer;
+}
+.button1:focus {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: rgba(0, 0, 0, 0.15);
+    background-color: #404BBF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button2  {
+color: #E7E9FC;
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: #404BBF;
+    border-radius: 4px;
+    cursor: pointer;
 }
