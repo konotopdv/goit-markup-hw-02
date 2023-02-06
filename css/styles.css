@@ -1,11 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 
 ul {
     list-style-type: none;
+}
+.page-header {
+    background-color:#E7E9FC ;
+}
+.logo {
+    color=#2E2F42
 }
 .header-link {
     color: #2E2F42;
@@ -13,11 +19,12 @@ ul {
     border-radius: 5px;
 
 }
-.header-link:hover {
+.header-link:hover,
+.header-link:focus{
     color: #404BBF;
     border: 1px dashed #9747FF;
     border-radius: 5px;
-    position: absolute
+
 
 }
 
@@ -25,9 +32,22 @@ ul {
     color: #434455;
     
 }
-.header-contact:hover {
-    color: #404BBF;
-    position: absolute;
+.header-contact:hover,
+.header-contact:focus{
+    color: #404BBF;}
+  
+ .hero {
+    background-color: #2E2F42;
+ }   
+.hero-title{
+    color: #FFFFFF;
+}
+
+.section-title{
+    color: #2E2F42;
+}
+.section-text {
+    color: #434455;
 }
 
 .button1 {
@@ -40,7 +60,7 @@ ul {
     border-radius: 4px ;
     cursor: pointer;
 }
-.button1:focus {
+.button1:hover,{
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
@@ -49,6 +69,25 @@ ul {
     background-color: #404BBF;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.slogan {
+    color: #2E2F42;
+}
+.aside{
+    background-color: #F4F4FD;
+}
+.name {
+    color: #2E2F42;
+}
+.job {
+    color: #434455;
+}
+.footer{
+    background-color:#2E2F42 ;
+}
+.footer-text{
+    color: #E7E9FC;
 }
 .button2  {
 color: #E7E9FC;
