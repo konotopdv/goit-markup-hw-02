@@ -20,22 +20,23 @@ ul {
 
 
 .logo {
-    color: var (--navy);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 0.03em;
     text-decoration: none;
     }
+
 .color-web {
     color: var(--blue);
 }
 
 .color-studio {
-    color: var (--white-three);
+    color: #2E2F42;
+}
+.color-studio-footer {
+    color: var(--white-three);
 }
 
 
@@ -184,4 +185,25 @@ color: var(--contact-cl);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
+}
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    top: -150%;
+    z-index: -100;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+    pointer-events: none;
+    cursor: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    white-space: nowrap;
 }
